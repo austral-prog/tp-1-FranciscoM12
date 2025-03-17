@@ -9,38 +9,38 @@ Para este ejercicio el objetivo es leer el código, anotar lo que piensen que lo
 i1 = 3
 i2 = 5
 i3 = i2 + i1
-print("valor de i1:")
+print("valor de i1:") #3
 print(i1)
-print("valor de i2:")
+print("valor de i2:") #5
 print(i2)
-print("valor de i3:")
+print("valor de i3:") #8
 print(i3)
-print(i1 + i2 + i3)
+print(i1 + i2 + i3) #16
 
 s1, s2, s3 = "Python", " is ", 'awesome'
-print(s1 + s2 + s3)
+print(s1 + s2 + s3) #"Python is awesome"
 
 x = y = z = "Naranja"
-print("valor de x: " + x + ", valor de y: " + y + ", valor de z: " + z)
+print("valor de x: " + x + ", valor de y: " + y + ", valor de z: " + z) #"valor de x: Naranja , valor de y: Naranja , valor de z: Naranja"
 
-z1 = i3 / i2
-print(z1)
-z2 = i3 % i2
-print(z2)
+z1 = i3 / i2  
+print(z1)   #1.6
+z2 = i3 % i2 
+print(z2)   #3
 f1 = -.5
 f2 = 10
 f3 = f1 + f2
 i3 = int(f3)
-print("entero i3:")
+print("entero i3:")  #9
 print(i3)
-print("variable f3:")
+print("variable f3:") #9.5
 print(f3)
 f2 += i1
-print("el valor de")
+print("el valor de f2")  #13
 print(f2)
-print("más")
+print("más") #-0.5
 print(f1)
-print("es:")
+print("es:")  #12.5
 print(f2 + f1)
 
 ```
